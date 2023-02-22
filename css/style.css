@@ -296,11 +296,12 @@ body {
     align-items: center; }
     @media only screen and (max-width: 46.5625em) {
       .qualification__education-item {
-        font-size: 1.75rem; } }
-    @media only screen and (max-width: 46.5625em) {
-      .qualification__education-item {
+        font-size: 1.75rem;
         justify-content: flex-start;
         padding: 1rem; } }
+    @media only screen and (max-width: 24.5625em) {
+      .qualification__education-item {
+        flex-direction: column; } }
 
 .qualification__settoright {
   display: flex;
@@ -315,6 +316,9 @@ body {
   .institution_img:hover {
     cursor: pointer;
     transform: scale(1.1); }
+  @media only screen and (max-width: 24.5625em) {
+    .institution_img {
+      margin-right: 0; } }
 
 .reveal {
   position: relative;
