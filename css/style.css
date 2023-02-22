@@ -84,6 +84,9 @@ body {
     .navbar__socials__twitter {
       width: 2rem;
       transition: transform .2s; }
+      @media only screen and (max-width: 46.5625em) {
+        .navbar__socials__twitter {
+          width: 2.5rem; } }
       .navbar__socials__twitter:hover {
         transform: scale(1.3); }
 
