@@ -232,7 +232,7 @@ body {
     @media only screen and (max-width: 46.5625em) {
       .qualification__skills-heading {
         font-size: var(--ft-sz-large); } }
-    @media only screen and (max-width: 24.5625em) {
+    @media only screen and (max-width: 26.25em) {
       .qualification__skills-heading {
         font-size: var(--ft-sz-xsmall); } }
   .qualification__skills-lists {
@@ -281,7 +281,7 @@ body {
       .qualification__education-heading {
         text-align: left;
         font-size: var(--ft-sz-large); } }
-    @media only screen and (max-width: 24.5625em) {
+    @media only screen and (max-width: 26.25em) {
       .qualification__education-heading {
         font-size: var(--ft-sz-xsmall); } }
   .qualification__education-lists {
@@ -299,7 +299,7 @@ body {
         font-size: 1.75rem;
         justify-content: flex-start;
         padding: 1rem; } }
-    @media only screen and (max-width: 24.5625em) {
+    @media only screen and (max-width: 26.25em) {
       .qualification__education-item {
         flex-direction: column; } }
 
@@ -316,7 +316,7 @@ body {
   .institution_img:hover {
     cursor: pointer;
     transform: scale(1.1); }
-  @media only screen and (max-width: 24.5625em) {
+  @media only screen and (max-width: 26.25em) {
     .institution_img {
       margin-right: 0; } }
 
@@ -415,7 +415,7 @@ body {
     @media only screen and (max-width: 46.5625em) {
       .contact__heading {
         font-size: var(--ft-sz-small); } }
-    @media only screen and (max-width: 24.5625em) {
+    @media only screen and (max-width: 26.25em) {
       .contact__heading {
         font-size: var(--ft-sz-xsmall); } }
   .contact__inputs {
@@ -433,7 +433,7 @@ body {
       outline: none; }
   .contact__t1, .contact__t2 {
     flex: 0 0 50%; }
-    @media only screen and (max-width: 24.5625em) {
+    @media only screen and (max-width: 26.25em) {
       .contact__t1, .contact__t2 {
         flex: 0 0 100%; } }
   .contact__t3 {
