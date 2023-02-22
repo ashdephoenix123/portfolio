@@ -9,7 +9,8 @@
   --grey-1: #5a5757;
   --grey-2: #716363;
   --box-shadow-2: 0 2rem 6rem rgba(0,0,0,0.4);
-  --box-shadow-1: 0 2rem 4rem rgba(0,0,0,0.6); }
+  --box-shadow-1: 0 2rem 4rem rgba(0,0,0,0.6);
+  --box-shadow-3: 0 4rem 7rem rgba(0,0,0,0.6); }
 
 *,
 *::before,
@@ -145,9 +146,16 @@ body {
       padding: 0 2rem; } }
   .about__me {
     font-size: var(--ft-sz-largest);
-    text-transform: uppercase;
     text-align: center;
-    margin: 4rem auto; }
+    margin: 4rem auto;
+    background-image: linear-gradient(to right, #bb00fa, #c2423c, #da2f11);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: var(--box-shadow-3); }
+    @media only screen and (max-width: 46.5625em) {
+      .about__me {
+        font-size: var(--ft-sz-large); } }
   .about__content {
     display: flex; }
     @media only screen and (max-width: 46.5625em) {
@@ -210,12 +218,10 @@ body {
       margin: 2rem; } }
   @media only screen and (max-width: 56.25em) {
     .qualification__skills {
-      width: 96%;
       border-radius: 0; } }
   @media only screen and (max-width: 46.5625em) {
     .qualification__skills {
-      width: 96%;
-      margin-top: -4rem;
+      margin: -4rem auto 0;
       padding: 2rem; } }
   .qualification__skills-heading {
     font-size: var(--ft-sz-largest);
@@ -240,7 +246,6 @@ body {
   margin: 0 2rem; }
 
 .qualification__education {
-  margin-bottom: 10rem;
   padding: 5rem 7rem;
   background-image: linear-gradient(to right, #cf29b1, #4551d6);
   color: #fff;
@@ -311,19 +316,22 @@ body {
 
 .projects {
   background-image: linear-gradient(to right, #06a570, #1cc655);
-  margin-bottom: 10rem;
+  margin: 10rem;
   border-radius: 20px;
   padding: 4rem 6rem;
   box-shadow: var(--box-shadow-1); }
   @media only screen and (max-width: 56.25em) {
     .projects {
-      width: 100%;
-      margin: 2rem auto 4rem;
+      margin: 2rem 2rem 4rem;
       border-radius: 0; } }
   .projects__header {
     font-size: var(--ft-sz-largest);
     color: #fff;
     margin-bottom: 3rem; }
+    @media only screen and (max-width: 56.25em) {
+      .projects__header {
+        font-size: var(--ft-sz-large);
+        text-align: center; } }
   .projects__cards {
     display: flex;
     justify-content: space-around;
@@ -335,6 +343,9 @@ body {
     flex: 0 0 30%;
     position: relative;
     margin-bottom: 2rem; }
+    @media only screen and (max-width: 66.6875em) {
+      .projects__carditem {
+        flex: 0 0 45%; } }
     @media only screen and (max-width: 56.25em) {
       .projects__carditem {
         flex: 0 0 40%; } }
