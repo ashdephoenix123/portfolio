@@ -149,7 +149,7 @@ body {
     font-size: var(--ft-sz-largest);
     text-align: center;
     margin: 4rem auto;
-    background-image: linear-gradient(to right, #bb00fa, #c2423c, #da2f11);
+    background-image: linear-gradient(to right, #bb00fa, #97307a, #da2f11);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -267,8 +267,10 @@ body {
       margin: 4rem 2rem 6rem; } }
   @media only screen and (max-width: 56.25em) {
     .qualification__education {
+      display: block;
       width: 100%;
-      border-radius: 0; } }
+      border-radius: 0;
+      padding: 2rem 0; } }
   @media only screen and (max-width: 46.5625em) {
     .qualification__education {
       padding: 2rem; } }
