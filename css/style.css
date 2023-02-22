@@ -5,6 +5,7 @@
   --ft-sz-largest: 8rem;
   --ft-sz-large: 6rem;
   --ft-sz-small: 5rem;
+  --ft-sz-xsmall: 4rem;
   --hover-col: rgb(149, 141, 141);
   --grey-1: #5a5757;
   --grey-2: #716363;
@@ -225,7 +226,12 @@ body {
       padding: 2rem; } }
   .qualification__skills-heading {
     font-size: var(--ft-sz-largest);
-    margin-left: 3rem; }
+    margin-left: 3rem;
+    display: flex;
+    align-items: center; }
+    @media only screen and (max-width: 46.5625em) {
+      .qualification__skills-heading {
+        font-size: var(--ft-sz-large); } }
   .qualification__skills-lists {
     list-style: none;
     font-size: 2rem;
@@ -265,7 +271,9 @@ body {
       padding: 2rem; } }
   .qualification__education-heading {
     font-size: var(--ft-sz-largest);
-    text-align: right; }
+    text-align: right;
+    display: flex;
+    align-items: center; }
     @media only screen and (max-width: 46.5625em) {
       .qualification__education-heading {
         text-align: left; } }
@@ -327,11 +335,13 @@ body {
   .projects__header {
     font-size: var(--ft-sz-largest);
     color: #fff;
-    margin-bottom: 3rem; }
-    @media only screen and (max-width: 56.25em) {
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center; }
+    @media only screen and (max-width: 46.5625em) {
       .projects__header {
         font-size: var(--ft-sz-large);
-        text-align: center; } }
+        justify-content: center; } }
   .projects__cards {
     display: flex;
     justify-content: space-around;
@@ -384,7 +394,7 @@ body {
   @media only screen and (max-width: 56.25em) {
     .contact {
       display: block;
-      padding: 8rem 2rem; } }
+      padding: 6rem 2rem; } }
   .contact__heading {
     font-size: var(--ft-sz-largest);
     font-weight: 700;
@@ -396,7 +406,7 @@ body {
         text-align: center; } }
     @media only screen and (max-width: 46.5625em) {
       .contact__heading {
-        font-size: var(--ft-sz-large); } }
+        font-size: var(--ft-sz-small); } }
   .contact__inputs {
     flex: 0 0 50%;
     display: flex;
