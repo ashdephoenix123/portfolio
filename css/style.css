@@ -5,7 +5,7 @@
   --ft-sz-largest: 8rem;
   --ft-sz-large: 6rem;
   --ft-sz-small: 5rem;
-  --ft-sz-xsmall: 4rem;
+  --ft-sz-xsmall: 4.5rem;
   --hover-col: rgb(149, 141, 141);
   --grey-1: #5a5757;
   --grey-2: #716363;
@@ -232,6 +232,9 @@ body {
     @media only screen and (max-width: 46.5625em) {
       .qualification__skills-heading {
         font-size: var(--ft-sz-large); } }
+    @media only screen and (max-width: 24.5625em) {
+      .qualification__skills-heading {
+        font-size: var(--ft-sz-xsmall); } }
   .qualification__skills-lists {
     list-style: none;
     font-size: 2rem;
@@ -276,10 +279,11 @@ body {
     align-items: center; }
     @media only screen and (max-width: 46.5625em) {
       .qualification__education-heading {
-        text-align: left; } }
-    @media only screen and (max-width: 46.5625em) {
-      .qualification__education-heading {
+        text-align: left;
         font-size: var(--ft-sz-large); } }
+    @media only screen and (max-width: 24.5625em) {
+      .qualification__education-heading {
+        font-size: var(--ft-sz-xsmall); } }
   .qualification__education-lists {
     list-style: none;
     font-size: 2rem;
@@ -407,6 +411,9 @@ body {
     @media only screen and (max-width: 46.5625em) {
       .contact__heading {
         font-size: var(--ft-sz-small); } }
+    @media only screen and (max-width: 24.5625em) {
+      .contact__heading {
+        font-size: var(--ft-sz-xsmall); } }
   .contact__inputs {
     flex: 0 0 50%;
     display: flex;
@@ -422,6 +429,9 @@ body {
       outline: none; }
   .contact__t1, .contact__t2 {
     flex: 0 0 50%; }
+    @media only screen and (max-width: 24.5625em) {
+      .contact__t1, .contact__t2 {
+        flex: 0 0 100%; } }
   .contact__t3 {
     display: block;
     width: 100%; }
