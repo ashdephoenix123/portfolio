@@ -300,7 +300,7 @@ body {
   top: -3.75rem;
   left: -1rem;
   color: #e1e1e1;
-  font-family: sans-serif;
+  font-family: sans-serif !important;
   line-height: 1;
   font-size: 30rem;
   z-index: 1;
@@ -311,7 +311,7 @@ body {
   right: 0;
   bottom: -20rem;
   color: #e1e1e1;
-  font-family: sans-serif;
+  font-family: sans-serif !important;
   line-height: 1;
   font-size: 30rem;
   z-index: 1;
