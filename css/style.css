@@ -280,16 +280,41 @@ body {
 }
 
 .about__description {
-  background-image: url("/images/bg-1.jpg");
+  position: relative;
+  font-family: 'Poppins', sans-serif;
   background-size: cover;
   border-radius: 1.5rem;
   box-shadow: var(--box-shadow-2);
-  font-size: 1.75rem;
+  font-size: 1.6rem;
   font-weight: 300;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem 10rem;
+  overflow: hidden;
+  z-index: 2;
+}
+.about__description::before {
+  content: "\201C";
+  position: absolute;
+  top: -3.75rem;
+  left: -1rem;
+  color: #e1e1e1;
+  font-family: sans-serif;
+  line-height: 1;
+  font-size: 30rem;
+  z-index: 1;
+}
+.about__description::after {
+  content: "\201D";
+  position: absolute;
+  right: 0;
+  bottom: -20rem;
+  color: #e1e1e1;
+  font-family: sans-serif;
+  line-height: 1;
+  font-size: 30rem;
+  z-index: 1;
 }
 
 @media only screen and (max-width: 56.25em) {
