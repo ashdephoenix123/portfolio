@@ -292,7 +292,6 @@ body {
   align-items: center;
   padding: 2rem 10rem;
   overflow: hidden;
-  z-index: 2;
 }
 .about__description::before {
   content: "\201C";
@@ -303,7 +302,7 @@ body {
   font-family: sans-serif !important;
   line-height: 1;
   font-size: 30rem;
-  z-index: 1;
+  z-index: -1;
 }
 .about__description::after {
   content: "\201D";
@@ -314,19 +313,19 @@ body {
   font-family: sans-serif !important;
   line-height: 1;
   font-size: 30rem;
-  z-index: 1;
+  z-index: -1;
 }
 
 @media only screen and (max-width: 56.25em) {
   .about__description {
-    padding: 0 5rem;
+    padding: 0 6rem;
   }
 }
 
 @media only screen and (max-width: 46.5625em) {
   .about__description {
     font-size: 1.75rem;
-    padding: 4rem 2rem;
+    padding: 4rem;
     margin-top: 4rem;
   }
 }
