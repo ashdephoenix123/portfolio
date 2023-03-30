@@ -137,7 +137,7 @@ body {
 }
 
 .section__head {
-  background-image: url("/images/main-img3.jpg");
+  background-image: linear-gradient(to bottom, transparent 0%, transparent 70%, rgb(255, 255, 255) 100%) ,url("/images/main-img3.jpg");
   background-size: cover;
   padding: 10rem 0;
   background-position: top;
