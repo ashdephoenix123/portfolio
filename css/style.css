@@ -59,14 +59,17 @@ body {
 }
 
 .navbar {
-  padding: 2rem;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .navbar__logo--left {
-  width: 16rem;
+  /* width: 16rem; */
+  /* width: 6rem; */
+  height: 5rem;
+  display: block;
 }
 
 .navbar__lists {
@@ -733,7 +736,9 @@ body {
 }
 
 .footer__logo {
-  width: 15rem;
+  /* width: 15rem; */
+  width: 8rem;
+  margin-bottom: 1rem;
 }
 
 .footer__row {
