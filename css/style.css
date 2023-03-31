@@ -54,6 +54,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 300px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
 .container {
   max-width: 150rem;
 }
@@ -140,7 +146,7 @@ body {
 }
 
 .section__head {
-  background-image: linear-gradient(to bottom, transparent 0%, transparent 60%, rgb(255, 255, 255) 98%) ,url("/images/main-img3.jpg");
+  background-image: linear-gradient(to bottom, transparent 0%, transparent 60%, rgb(255, 255, 255) 98%), url("/images/main-img3.jpg");
   background-size: cover;
   padding: 10rem 0;
   background-position: top;
@@ -296,6 +302,7 @@ body {
   padding: 2rem 10rem;
   overflow: hidden;
 }
+
 .about__description::before {
   content: "\201C";
   position: absolute;
@@ -307,6 +314,7 @@ body {
   font-size: 30rem;
   z-index: -1;
 }
+
 .about__description::after {
   content: "\201D";
   position: absolute;
@@ -540,6 +548,12 @@ body {
   .projects {
     margin: 2rem 0;
     border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 388px) {
+  .projects {
+    padding: 0 1.5rem;
   }
 }
 
@@ -832,6 +846,12 @@ body {
   gap: 4rem;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .project-lists {
+    grid-template-columns: 1fr;
+  }
+}
+
 .project-lists .card {
   background-color: #d1d1d1;
   padding: 2rem;
@@ -887,7 +907,8 @@ body {
   font-weight: bold;
   transform: skewX(-10deg);
 }
-::selection{
+
+::selection {
   background-color: #000000;
   color: #fff;
 }
